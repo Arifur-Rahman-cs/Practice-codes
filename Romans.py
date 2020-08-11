@@ -7,8 +7,8 @@ romans = {
 x = 10
 number = ""
 
-if x > 10:
+if x >= 10:
     r = x / 10
-    number = romans[10] * r
+    number = romans[10] * int(r)
 
 print(number)
